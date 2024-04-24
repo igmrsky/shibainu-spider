@@ -1,0 +1,29 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    @extend %sf-400;
+    background-color: #101932;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.container {
+    max-width: 1765px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.title {
+    @extend %sf-700;
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}

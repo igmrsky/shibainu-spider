@@ -1,0 +1,39 @@
+$red-accent: #e11d2e;
+$bg-light: #384d70;
+$bg-dark: #384d7033;
+$button-hover: #ff9429;
+
+%btn-hover {
+    background-color: $button-hover;
+    color: #000;
+}
+
+%sf-400 {
+    font-family: 'SF Pro Display';
+    font-weight: normal;
+    font-style: normal;
+}
+
+%sf-500 {
+    font-family: 'SF Pro Display';
+    font-weight: 500;
+    font-style: normal;
+}
+
+%sf-600 {
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-style: normal;
+}
+
+%sf-700 {
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+    font-style: normal;
+}
+
+%sf-900 {
+    font-family: 'SF Pro Display';
+    font-weight: 900;
+    font-style: normal;
+}
