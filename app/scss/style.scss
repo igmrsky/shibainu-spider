@@ -21,6 +21,10 @@
         margin-bottom: 90px;
     }
 
+    .logo {
+        margin-right: auto;
+    }
+
     &__logo {
         margin-right: auto;
     }
@@ -491,10 +495,15 @@
 
     &__btn {
         padding: 25px 30px;
+        border-radius: 10px;
         background-color: $red-accent;
         font-size: 25px;
         color: #fff;
         @extend %sf-700;
+        transition: all .3s;
+        &:hover {
+            background-color: $button-hover;
+        }
     }
 
     &__benefits-items {
