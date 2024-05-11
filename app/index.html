@@ -11,57 +11,62 @@
 
 <body>
 
+    <div id="button-up"><img src="images/icons/angle-up.svg" alt=""></div>
+
     <div class="header__inner">
-        <header class="header">
+        <header class="header" id="header">
             <div class="container">
                 <div class="header__top">
-                    <a class="logo" href="#">
+                    <a class="logo" href="#header">
                         <img class="header__logo" src="images/logo.svg" alt="Company's logo">
                     </a>
                     <nav class="nav">
+                        <button class="nav__btn">
+                            <span class="nav__btn-line"></span>
+                        </button>
                         <ul class="nav__list">
                             <li class="nav__item">
-                                <a class="nav__link" href="#">
+                                <a class="nav__link" href="#how">
                                     How it works
                                 </a>
                             </li>
                             <li class="nav__item">
-                                <a class="nav__link" href="#">
+                                <a class="nav__link" href="#earn">
                                     Play and earn
                                 </a>
                             </li>
                             <li class="nav__item">
-                                <a class="nav__link" href="#">
+                                <a class="nav__link" href="#roadmap">
                                     Roadmap
                                 </a>
                             </li>
                             <li class="nav__item">
-                                <a class="nav__link" href="#">
+                                <a class="nav__link" href="#team">
                                     Team
                                 </a>
                             </li>
                             <li class="nav__item">
-                                <a class="nav__link" href="#">
+                                <a class="nav__link" href="#partners">
                                     Partners&Investors
                                 </a>
                             </li>
                             <li class="nav__item">
-                                <a class="nav__link" href="#">
+                                <a class="nav__link" href="#why">
                                     Why invest in SpiderShiba
                                 </a>
                             </li>
                             <li class="nav__item">
-                                <a class="nav__link" href="#">
+                                <a class="nav__link" href="#token">
                                     Tokenomics
                                 </a>
                             </li>
                             <li class="nav__item">
-                                <a class="nav__link" href="#">
+                                <a class="nav__link" href="#faq">
                                     FAQ
                                 </a>
                             </li>
                             <li class="nav__item">
-                                <a class="nav__link" href="#">
+                                <a class="nav__link" href="#community">
                                     Community
                                 </a>
                             </li>
@@ -74,35 +79,38 @@
                 <section class="hero">
                     <div class="hero__wrapper">
                         <div class="hero__content">
-                            <h1 class="hero__title">
-                                <span class="hero__span">Who is</span> mr. Spidershiba Inu?
-                            </h1>
-                            <p class="hero__caption">
-                                it's a hybrid of Shiba and Spiderman.... but
-                            </p>
-                            <p class="hero__text">
-                                It's not only for pump and dump by Elon tweets. This is real NFT game with Achiements,
-                                Goals and nice gameplay with tokenization
-                            </p>
-                            <div class="hero__links">
-                                <a class="hero__link hero__link-join" href="#">
-                                    Join Community
-                                </a>
-                                <a class="hero__link hero__link-more" href="#">
-                                    More about SpiderShiba Inu
-                                </a>
-                            </div>
-                            <div class="hero__contact">
-                                <span class="hero__address">
-                                    Contract address:
-                                </span>
-                                <p class="hero__address-num">
-                                    0xe4C6E7a0F696Fb2356A187020eb13E742792Fdcc
+                            <div class="hero__content-text">
+                                <h1 class="hero__title">
+                                    <span class="hero__span">Who is</span> mr. Spidershiba Inu?
+                                </h1>
+                                <p class="hero__caption">
+                                    it's a hybrid of Shiba and Spiderman.... but
                                 </p>
+                                <p class="hero__text">
+                                    It's not only for pump and dump by Elon tweets. This is real NFT game with
+                                    Achiements,
+                                    Goals and nice gameplay with tokenization
+                                </p>
+                                <div class="hero__links">
+                                    <a class="hero__link hero__link-join" href="#">
+                                        Join Community
+                                    </a>
+                                    <a class="hero__link hero__link-more" href="#">
+                                        More about SpiderShiba Inu
+                                    </a>
+                                </div>
+                                <div class="hero__contact">
+                                    <span class="hero__address">
+                                        Contract address:
+                                    </span>
+                                    <p class="hero__address-num">
+                                        0xe4C6E7a0F696Fb2356A187020eb13E742792Fdcc
+                                    </p>
+                                </div>
+                                <div class="hero__img-wrapper">
+                                    <img class="hero__img" src="images/header/header-shiba.png" alt="">
+                                </div>
                             </div>
-                        </div>
-                        <div class="hero__img-wrapper">
-                            <img class="hero__img" src="images/header/header-shiba.png" alt="">
                         </div>
                     </div>
                 </section>
@@ -149,6 +157,7 @@
     </div>
 
     <main class="main">
+
         <div class="how-wrapper">
             <section class="how">
                 <div class="container">
@@ -178,7 +187,7 @@
                         </h3>
                         <a class="how__link" href="#">Let's find out more</a>
                     </div>
-                    <div class="how__content">
+                    <div class="how__content" id="how">
                         <h2 class="title how__title">
                             How it works?
                         </h2>
@@ -249,7 +258,8 @@
                 </div>
             </section>
         </div>
-        <section class="earn">
+
+        <section class="earn" id="earn">
             <div class="container">
                 <div class="earn__title-inner">
                     <h2 class="title earn__title">
@@ -307,7 +317,8 @@
                 </div>
             </div>
         </section>
-        <section class="why">
+
+        <section class="why" id="why">
             <div class="container">
                 <div class="why__wrapper">
                     <div class="why__title-inner">
@@ -352,161 +363,173 @@
                 </div>
             </div>
         </section>
-        <section class="roadmap">
+
+        <section class="roadmap" id="roadmap">
             <div class="container">
                 <h2 class="title roadmap__title">
                     Roadmap
                 </h2>
                 <div class="roadmap__items">
-                    <div class="roadmap__item roadmap__item--passed roadmap__item--success">
-                        <div class="roadmap__number">
-                            <span class="roadmap__num-inner">
-                                1
-                            </span>
-                        </div>
-                        <div class="roadmap__info">
-                            <h3 class="roadmap__item-title">
-                                August 2021
-                            </h3>
-                            <ul class="roadmap__list">
-                                <li class="roadmap_list-item">
-                                    Started project ☑️
-                                </li>
-                                <li class="roadmap_list-item">
-                                    Budget accumulation ☑️
-                                </li>
-                                <li class="roadmap_list-item">
-                                    Winning team search ☑️
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="roadmap__item roadmap__item--passed roadmap__item--second">
-                        <div class="roadmap__number">
-                            <span class="roadmap__num-inner">
-                                2
-                            </span>
-                        </div>
-                        <div class="roadmap__info">
-                            <h3 class="roadmap__item-title">
-                                Sept - Nov 2021
-                            </h3>
-                            <ul class="roadmap__list">
-                                <li class="roadmap_list-item">
-                                    Whitepaper creation ☑️
-                                </li>
-                                <li class="roadmap_list-item">
-                                    Smartcontract testing ☑️
-                                </li>
-                                <li class="roadmap_list-item">
-                                    Building ideas for nft game ☑️
-                                </li>
-                                <li class="roadmap_list-item">
-                                    start developing website and game ☑️
-                                </li>
-                                <li class="roadmap_list-item">
-                                    start creating NFT ☑️
-                                </li>
-                                <li class="roadmap_list-item">
-                                    start creating tokenomics ☑️
-                                </li>
-                            </ul>
+                    <div class="roadmap__item-wrapper roadmap__item-wrapper--left roadmap__item-wrapper--active">
+                        <div class="roadmap__item roadmap__item--passed">
+                            <div class="roadmap__number">
+                                <span class="roadmap__num-inner">
+                                    1
+                                </span>
+                            </div>
+                            <div class="roadmap__info">
+                                <h3 class="roadmap__item-title">
+                                    August 2021
+                                </h3>
+                                <ul class="roadmap__list">
+                                    <li class="roadmap_list-item">
+                                        Started project ☑️
+                                    </li>
+                                    <li class="roadmap_list-item">
+                                        Budget accumulation ☑️
+                                    </li>
+                                    <li class="roadmap_list-item">
+                                        Winning team search ☑️
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="roadmap__item roadmap__item--passed">
-                        <div class="roadmap__number">
-                            <span class="roadmap__num-inner">
-                                3
-                            </span>
-                        </div>
-                        <div class="roadmap__info">
-                            <h3 class="roadmap__item-title">
-                                Dec - Jan 2022
-                            </h3>
-                            <ul class="roadmap__list">
-                                <li class="roadmap_list-item">
-                                    Official launch on pinksale ☑️
-                                </li>
-                                <li class="roadmap_list-item">
-                                    Start marketing campaign ☑️
-                                </li>
-                                <li class="roadmap_list-item">
-                                    Airdrop ☑️
-                                </li>
-                                <li class="roadmap_list-item">
-                                    Panckacke swap launch ☑️
-                                </li>
-                                <li class="roadmap_list-item">
-                                    Start of collaborations with decentraland and the sandbox ☑️
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="roadmap__item roadmap__item--active">
-                        <div class="roadmap__number">
-                            <span class="roadmap__num-inner">
-                                4
-                            </span>
-                        </div>
-                        <div class="roadmap__info">
-                            <h3 class="roadmap__item-title">
-                                Q1 2022
-                            </h3>
-                            <ul class="roadmap__list">
-                                <li class="roadmap_list-item">
-                                    Listing on coinmarketcap and coingecko
-                                </li>
-                                <li class="roadmap_list-item">
-                                    Early beta game
-                                </li>
-                                <li class="roadmap_list-item">
-                                    Promotion cooperation with big celebrities
-                                </li>
-                                <li class="roadmap_list-item">
-                                    NFT &amp Game community build-up
-                                </li>
-                                <li class="roadmap_list-item">
-                                    NFT collaborations and launch
-                                </li>
-                            </ul>
+                    <div class="roadmap__item-wrapper roadmap__item-wrapper--right roadmap__item-wrapper--active">
+                        <div class="roadmap__item roadmap__item--passed">
+                            <div class="roadmap__number">
+                                <span class="roadmap__num-inner">
+                                    2
+                                </span>
+                            </div>
+                            <div class="roadmap__info">
+                                <h3 class="roadmap__item-title">
+                                    Sept - Nov 2021
+                                </h3>
+                                <ul class="roadmap__list">
+                                    <li class="roadmap_list-item">
+                                        Whitepaper creation ☑️
+                                    </li>
+                                    <li class="roadmap_list-item">
+                                        Smartcontract testing ☑️
+                                    </li>
+                                    <li class="roadmap_list-item">
+                                        Building ideas for nft game ☑️
+                                    </li>
+                                    <li class="roadmap_list-item">
+                                        start developing website and game ☑️
+                                    </li>
+                                    <li class="roadmap_list-item">
+                                        start creating NFT ☑️
+                                    </li>
+                                    <li class="roadmap_list-item">
+                                        start creating tokenomics ☑️
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="roadmap__item roadmap__item--active">
-                        <div class="roadmap__number">
-                            <span class="roadmap__num-inner">
-                                5
-                            </span>
+                    <div class="roadmap__item-wrapper roadmap__item-wrapper--left roadmap__item-wrapper--active">
+                        <div class="roadmap__item">
+                            <div class="roadmap__number">
+                                <span class="roadmap__num-inner">
+                                    3
+                                </span>
+                            </div>
+                            <div class="roadmap__info">
+                                <h3 class="roadmap__item-title">
+                                    Dec - Jan 2022
+                                </h3>
+                                <ul class="roadmap__list">
+                                    <li class="roadmap_list-item">
+                                        Official launch on pinksale ☑️
+                                    </li>
+                                    <li class="roadmap_list-item">
+                                        Start marketing campaign ☑️
+                                    </li>
+                                    <li class="roadmap_list-item">
+                                        Airdrop ☑️
+                                    </li>
+                                    <li class="roadmap_list-item">
+                                        Panckacke swap launch ☑️
+                                    </li>
+                                    <li class="roadmap_list-item">
+                                        Start of collaborations with decentraland and the sandbox ☑️
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="roadmap__info">
-                            <h3 class="roadmap__item-title">
-                                Q2 2022
-                            </h3>
-                            <ul class="roadmap__list">
-                                <li class="roadmap_list-item">
-                                    Launch of new website
-                                </li>
-                                <li class="roadmap_list-item">
-                                    Centralized exchange listening
-                                </li>
-                                <li class="roadmap_list-item">
-                                    Launch of Spidershiba inu single player
-                                </li>
-                                <li class="roadmap_list-item">
-                                    Creation of NFT marketplace
-                                </li>
-                                <li class="roadmap_list-item">
-                                    First teaser of Spidershiba inu World Metaverse multiplayer
-                                </li>
-                                <li class="roadmap_list-item">
-                                    Android &amp iOS App release
-                                </li>
-                            </ul>
+                    </div>
+                    <div class="roadmap__item-wrapper roadmap__item-wrapper--right">
+                        <div class="roadmap__item roadmap__item--active">
+                            <div class="roadmap__number">
+                                <span class="roadmap__num-inner">
+                                    4
+                                </span>
+                            </div>
+                            <div class="roadmap__info">
+                                <h3 class="roadmap__item-title">
+                                    Q1 2022
+                                </h3>
+                                <ul class="roadmap__list">
+                                    <li class="roadmap_list-item">
+                                        Listing on coinmarketcap and coingecko
+                                    </li>
+                                    <li class="roadmap_list-item">
+                                        Early beta game
+                                    </li>
+                                    <li class="roadmap_list-item">
+                                        Promotion cooperation with big celebrities
+                                    </li>
+                                    <li class="roadmap_list-item">
+                                        NFT &amp Game community build-up
+                                    </li>
+                                    <li class="roadmap_list-item">
+                                        NFT collaborations and launch
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="roadmap__item-wrapper roadmap__item-wrapper--left">
+                        <div class="roadmap__item roadmap__item--active">
+                            <div class="roadmap__number">
+                                <span class="roadmap__num-inner">
+                                    5
+                                </span>
+                            </div>
+                            <div class="roadmap__info">
+                                <h3 class="roadmap__item-title">
+                                    Q2 2022
+                                </h3>
+                                <ul class="roadmap__list">
+                                    <li class="roadmap_list-item">
+                                        Launch of new website
+                                    </li>
+                                    <li class="roadmap_list-item">
+                                        Centralized exchange listening
+                                    </li>
+                                    <li class="roadmap_list-item">
+                                        Launch of Spidershiba inu single player
+                                    </li>
+                                    <li class="roadmap_list-item">
+                                        Creation of NFT marketplace
+                                    </li>
+                                    <li class="roadmap_list-item">
+                                        First teaser of Spidershiba inu World Metaverse multiplayer
+                                    </li>
+                                    <li class="roadmap_list-item">
+                                        Android &amp iOS App release
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="team">
+
+        <section class="team" id="team">
             <div class="container">
                 <h2 class="title team__title">
                     Team
@@ -645,7 +668,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="partners">
+                <div class="partners" id="partners">
                     <h2 class="title partners__title">
                         Partners &amp Investors
                     </h2>
@@ -672,7 +695,8 @@
                 </div>
             </div>
         </section>
-        <section class="token">
+
+        <section class="token" id="token">
             <div class="container">
                 <h2 class="title token__title">
                     Tokenomics
@@ -745,7 +769,8 @@
                 </div>
             </div>
         </section>
-        <section class="faq">
+
+        <section class="faq" id="faq">
             <div class="container">
                 <h2 class="title faq__title">
                     Frequently Asked Questions
@@ -753,60 +778,89 @@
                 <div class="faq__items">
                     <div class="faq__item">
                         <p class="faq__caption">
-                            Where can I buy tokens and NFTs of SpiderShib Inu?
-                            <svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M9.11612 10.8839C9.60427 11.372 10.3957 11.372 10.8839 10.8839L18.8388 2.92893C19.327 2.44078 19.327 1.64932 18.8388 1.16116C18.3507 0.67301 17.5592 0.67301 17.0711 1.16116L10 8.23223L2.92893 1.16117C2.44078 0.67301 1.64932 0.67301 1.16116 1.16117C0.67301 1.64932 0.67301 2.44078 1.16116 2.92893L9.11612 10.8839ZM8.75 9L8.75 10L11.25 10L11.25 9L8.75 9Z" fill="white"/>
-                                </svg>
+                            <span class="faq__caption-text">Where can I buy tokens and NFTs of SpiderShib Inu?</span>
+                            <svg width="20" height="12" viewBox="0 0 20 12" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.11612 10.8839C9.60427 11.372 10.3957 11.372 10.8839 10.8839L18.8388 2.92893C19.327 2.44078 19.327 1.64932 18.8388 1.16116C18.3507 0.67301 17.5592 0.67301 17.0711 1.16116L10 8.23223L2.92893 1.16117C2.44078 0.67301 1.64932 0.67301 1.16116 1.16117C0.67301 1.64932 0.67301 2.44078 1.16116 2.92893L9.11612 10.8839ZM8.75 9L8.75 10L11.25 10L11.25 9L8.75 9Z"
+                                    fill="white" />
+                            </svg>
                         </p>
                         <div class="faq__wrapper">
                             <p class="faq__text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus unde pariatur error officia quae maxime quam adipisci hic soluta eligendi dolorum quasi fugit consectetur dolorem iure quo, quis vitae! Quidem iste facilis nemo aperiam laborum consectetur illo reiciendis facere, quaerat laudantium alias provident suscipit aliquam eveniet delectus maxime eius rerum.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus unde pariatur error
+                                officia quae maxime quam adipisci hic soluta eligendi dolorum quasi fugit consectetur
+                                dolorem iure quo, quis vitae! Quidem iste facilis nemo aperiam laborum consectetur illo
+                                reiciendis facere, quaerat laudantium alias provident suscipit aliquam eveniet delectus
+                                maxime eius rerum.
                             </p>
                         </div>
                     </div>
                     <div class="faq__item">
                         <p class="faq__caption">
-                            Where can I buy tokens and NFTs of SpiderShib Inu?
-                            <svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M9.11612 10.8839C9.60427 11.372 10.3957 11.372 10.8839 10.8839L18.8388 2.92893C19.327 2.44078 19.327 1.64932 18.8388 1.16116C18.3507 0.67301 17.5592 0.67301 17.0711 1.16116L10 8.23223L2.92893 1.16117C2.44078 0.67301 1.64932 0.67301 1.16116 1.16117C0.67301 1.64932 0.67301 2.44078 1.16116 2.92893L9.11612 10.8839ZM8.75 9L8.75 10L11.25 10L11.25 9L8.75 9Z" fill="white"/>
-                                </svg>
+                            <span class="faq__caption-text">Where can I buy tokens and NFTs of SpiderShib Inu?</span>
+                            <svg width="20" height="12" viewBox="0 0 20 12" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.11612 10.8839C9.60427 11.372 10.3957 11.372 10.8839 10.8839L18.8388 2.92893C19.327 2.44078 19.327 1.64932 18.8388 1.16116C18.3507 0.67301 17.5592 0.67301 17.0711 1.16116L10 8.23223L2.92893 1.16117C2.44078 0.67301 1.64932 0.67301 1.16116 1.16117C0.67301 1.64932 0.67301 2.44078 1.16116 2.92893L9.11612 10.8839ZM8.75 9L8.75 10L11.25 10L11.25 9L8.75 9Z"
+                                    fill="white" />
+                            </svg>
                         </p>
                         <div class="faq__wrapper">
                             <p class="faq__text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus unde pariatur error officia quae maxime quam adipisci hic soluta eligendi dolorum quasi fugit consectetur dolorem iure quo, quis vitae! Quidem iste facilis nemo aperiam laborum consectetur illo reiciendis facere, quaerat laudantium alias provident suscipit aliquam eveniet delectus maxime eius rerum.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus unde pariatur error
+                                officia quae maxime quam adipisci hic soluta eligendi dolorum quasi fugit consectetur
+                                dolorem iure quo, quis vitae! Quidem iste facilis nemo aperiam laborum consectetur illo
+                                reiciendis facere, quaerat laudantium alias provident suscipit aliquam eveniet delectus
+                                maxime eius rerum.
                             </p>
                         </div>
                     </div>
                     <div class="faq__item">
                         <p class="faq__caption">
-                            Where can I buy tokens and NFTs of SpiderShib Inu?
-                            <svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M9.11612 10.8839C9.60427 11.372 10.3957 11.372 10.8839 10.8839L18.8388 2.92893C19.327 2.44078 19.327 1.64932 18.8388 1.16116C18.3507 0.67301 17.5592 0.67301 17.0711 1.16116L10 8.23223L2.92893 1.16117C2.44078 0.67301 1.64932 0.67301 1.16116 1.16117C0.67301 1.64932 0.67301 2.44078 1.16116 2.92893L9.11612 10.8839ZM8.75 9L8.75 10L11.25 10L11.25 9L8.75 9Z" fill="white"/>
-                                </svg>
+                            <span class="faq__caption-text">Where can I buy tokens and NFTs of SpiderShib Inu?</span>
+                            <svg width="20" height="12" viewBox="0 0 20 12" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.11612 10.8839C9.60427 11.372 10.3957 11.372 10.8839 10.8839L18.8388 2.92893C19.327 2.44078 19.327 1.64932 18.8388 1.16116C18.3507 0.67301 17.5592 0.67301 17.0711 1.16116L10 8.23223L2.92893 1.16117C2.44078 0.67301 1.64932 0.67301 1.16116 1.16117C0.67301 1.64932 0.67301 2.44078 1.16116 2.92893L9.11612 10.8839ZM8.75 9L8.75 10L11.25 10L11.25 9L8.75 9Z"
+                                    fill="white" />
+                            </svg>
                         </p>
                         <div class="faq__wrapper">
                             <p class="faq__text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus unde pariatur error officia quae maxime quam adipisci hic soluta eligendi dolorum quasi fugit consectetur dolorem iure quo, quis vitae! Quidem iste facilis nemo aperiam laborum consectetur illo reiciendis facere, quaerat laudantium alias provident suscipit aliquam eveniet delectus maxime eius rerum.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus unde pariatur error
+                                officia quae maxime quam adipisci hic soluta eligendi dolorum quasi fugit consectetur
+                                dolorem iure quo, quis vitae! Quidem iste facilis nemo aperiam laborum consectetur illo
+                                reiciendis facere, quaerat laudantium alias provident suscipit aliquam eveniet delectus
+                                maxime eius rerum.
                             </p>
                         </div>
                     </div>
                     <div class="faq__item">
                         <p class="faq__caption">
-                            Where can I buy tokens and NFTs of SpiderShib Inu?
-                            <svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M9.11612 10.8839C9.60427 11.372 10.3957 11.372 10.8839 10.8839L18.8388 2.92893C19.327 2.44078 19.327 1.64932 18.8388 1.16116C18.3507 0.67301 17.5592 0.67301 17.0711 1.16116L10 8.23223L2.92893 1.16117C2.44078 0.67301 1.64932 0.67301 1.16116 1.16117C0.67301 1.64932 0.67301 2.44078 1.16116 2.92893L9.11612 10.8839ZM8.75 9L8.75 10L11.25 10L11.25 9L8.75 9Z" fill="white"/>
-                                </svg>
+                            <span class="faq__caption-text">Where can I buy tokens and NFTs of SpiderShib Inu?</span>
+                            <svg width="20" height="12" viewBox="0 0 20 12" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.11612 10.8839C9.60427 11.372 10.3957 11.372 10.8839 10.8839L18.8388 2.92893C19.327 2.44078 19.327 1.64932 18.8388 1.16116C18.3507 0.67301 17.5592 0.67301 17.0711 1.16116L10 8.23223L2.92893 1.16117C2.44078 0.67301 1.64932 0.67301 1.16116 1.16117C0.67301 1.64932 0.67301 2.44078 1.16116 2.92893L9.11612 10.8839ZM8.75 9L8.75 10L11.25 10L11.25 9L8.75 9Z"
+                                    fill="white" />
+                            </svg>
                         </p>
                         <div class="faq__wrapper">
                             <p class="faq__text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus unde pariatur error officia quae maxime quam adipisci hic soluta eligendi dolorum quasi fugit consectetur dolorem iure quo, quis vitae! Quidem iste facilis nemo aperiam laborum consectetur illo reiciendis facere, quaerat laudantium alias provident suscipit aliquam eveniet delectus maxime eius rerum.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus unde pariatur error
+                                officia quae maxime quam adipisci hic soluta eligendi dolorum quasi fugit consectetur
+                                dolorem iure quo, quis vitae! Quidem iste facilis nemo aperiam laborum consectetur illo
+                                reiciendis facere, quaerat laudantium alias provident suscipit aliquam eveniet delectus
+                                maxime eius rerum.
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="community">
+
+        <section class="community" id="community">
             <div class="container">
                 <h2 class="title community__title">
                     Join our SpiderShib Inu Community
